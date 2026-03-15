@@ -37,7 +37,7 @@ def signup():
     # we need to commit to save the changes in the database
     connection.commit()
     # return a message to the user to show signup was successful
-    return jsonify ({"Success!" : "Thank you for signing up!"})
+    return jsonify ({"Success!" : "Thank you for signing up!!"})
 
 
 
